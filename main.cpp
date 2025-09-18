@@ -1,5 +1,16 @@
 #include <iostream>
+
+class Person
+{
+public:
+  std::string Name;
+  int Age;
+};
+
 int main()
 {
-  std::cout << "Hello!\n";
+  Person p;
+  p.Name = "John Doe";
+  p.Age = 25;
+  std::cout << "Hello " << p.Name << "!\n";
 }
