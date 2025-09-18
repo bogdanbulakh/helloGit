@@ -13,4 +13,5 @@ int main()
   p.Name = "John Doe";
   p.Age = 25;
   std::cout << "Hello " << p.Name << "!\n";
+  std::cout << "You are " << p.Age << " y.o.\n";
 }
