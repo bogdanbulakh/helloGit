@@ -5,12 +5,12 @@ class Person
 public:
   std::string Name;
   int Age;
+  Person(std::string name, int age)
+    : Name(name), Age(age) {}
 };
 
 int main()
 {
-  Person p;
-  p.Name = "John Doe";
-  p.Age = 25;
+  Person p("John Doe", 25);
   std::cout << "Hello " << p.Name << "!\n";
 }
